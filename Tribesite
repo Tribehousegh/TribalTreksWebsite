@@ -1,0 +1,281 @@
+TribalTreksWebsite/
+│
+├── index.html
+├── about.html
+├── events.html
+├── blog.html
+├── contact.html
+├── style.css
+└── script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribal Treks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tribal Treks</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Explore Our Adventures</h2>
+        <p>Custom outdoor experiences tailored just for you.</p>
+    </section>
+
+    <section class="mission">
+        <h3>Our Mission</h3>
+        <p>We create custom outdoor events and adventures tailored to how our guests feel.</p>
+    </section>
+
+    <section class="upcoming-events">
+        <h3>Upcoming Events</h3>
+        <div class="event-card">
+            <h4>Sea Brzz Edition</h4>
+            <p>Date: Upcoming Date</p>
+            <button><a href="events.html">Learn More</a></button>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h3>Testimonials</h3>
+        <p>"An unforgettable experience!" - Attendee</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tribal Treks</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Tribal Treks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="story">
+        <h2>Our Story</h2>
+        <p>Tribal Treks creates unique outdoor adventures...</p>
+    </section>
+
+    <section class="team">
+        <h3>Our Team</h3>
+        <div class="team-member">
+            <h4>Founder Name</h4>
+            <p>Founder Bio...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tribal Treks</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Tribal Treks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Events</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="event-list">
+        <h2>Upcoming Events</h2>
+        <div class="event-card">
+            <h4>Sea Brzz Edition</h4>
+            <p>Date: Upcoming Date</p>
+            <button><a href="#">Register Now</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tribal Treks</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Tribal Treks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="blog-list">
+        <h2>Latest Posts</h2>
+        <div class="blog-post">
+            <h4>Top 5 Tips for Your Next Beach Adventure</h4>
+            <p>Short excerpt of the blog post...</p>
+            <button><a href="#">Read More</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tribal Treks</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tribal Treks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="map">
+            <!-- Google Maps embed will go here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tribal Treks</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #3BA99C;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.mission, .upcoming-events, .testimonials, .story, .team, .contact-form {
+    padding: 20px;
+}
+
+.event-card {
+    background: #EFC36C;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+footer {
+    background: #2D5A6B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+// Placeholder for future JavaScript functionality
+console.log("Welcome to Tribal Treks!");
